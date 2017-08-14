@@ -1,0 +1,60 @@
+section.citywrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 512px; }
+  @media screen and (max-width: 640px) {
+    section.citywrapper {
+      height: 768px; } }
+  section.citywrapper .aboutme {
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: 32px auto;
+    width: 512px;
+    padding: 16px;
+    z-index: -160;
+    text-align: center; }
+    @media screen and (max-width: 640px) {
+      section.citywrapper .aboutme {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 0; } }
+  section.citywrapper .citiImages {
+    height: 512px;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -100;
+    background-color: black; }
+    @media screen and (max-width: 980px) {
+      section.citywrapper .citiImages {
+        width: 100%;
+        max-width: 980px; } }
+    @media screen and (max-width: 640px) {
+      section.citywrapper .citiImages {
+        width: 100%;
+        max-width: 640px;
+        bottom: 0;
+        height: 768px; } }
+    section.citywrapper .citiImages img {
+    position: absolute;
+    bottom: 0; 
+    }
+    section.citywrapper .citiImages #neco {
+      z-index: -110;
+    }
+    section.citywrapper .citiImages #middle {
+      z-index: -120;
+    }
+    section.citywrapper .citiImages #back {
+      z-index: -130;
+    }
+
+    section.citywrapper .citiImages .star {
+      z-index: -150;
+      position: absolute; }
